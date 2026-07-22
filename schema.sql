@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS scores (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    dimension INTEGER NOT NULL,
+    difficulty TEXT NOT NULL,
+    player_name TEXT NOT NULL,
+    time_ms INTEGER NOT NULL,
+    created_at TEXT DEFAULT CURRENT_TIMESTAMP
+);
