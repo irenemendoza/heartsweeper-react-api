@@ -106,7 +106,7 @@ export default {
 
 			return new Response(
 				JSON.stringify(results),
-				{ status: 201,
+				{ status: 200,
 					headers: {...corsHeaders, "Content-Type": "application/json"}
 				}
 			);
