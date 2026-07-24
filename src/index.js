@@ -13,7 +13,7 @@ export default {
 		const url = new URL(request.url);
 
 		const corsHeaders = {
-			"Access-Control-Allow-Origin": "heartsweeper-react.vercel.app",
+			"Access-Control-Allow-Origin": "https://heartsweeper.irenemendoza.dev",
 			"Access-Control-Allow-Methods": "GET, POST, OPTIONS",
 			"Access-Control-Allow-Headers": "Content-Type",
 		};
